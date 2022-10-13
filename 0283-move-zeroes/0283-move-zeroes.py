@@ -1,7 +1,5 @@
 class Solution(object):
     def moveZeroes(self, nums):
-        ans = []
-        zeros = []
         for index,num in enumerate(nums):
             if(num == 0):
                 nums.append(nums[index])
